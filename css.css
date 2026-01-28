@@ -189,9 +189,11 @@ blockquote {
     color: var(--text-primary);
     line-height: 1.4;
 }
-.content p {
-    text-indent: 1.5rem; /* Adjust this value for a deeper or shallower indent */
-    margin-bottom: 0;   /* Usually, indented styles don't need large bottom margins */
+/* This only applies to paragraphs where you explicitly add the class */
+.indented {
+    text-indent: 1.5rem; /* Indents the first line */
+    /* OR use padding-left: 3rem; if you want the ENTIRE paragraph moved over */
+    margin-bottom: 2rem; 
 }
 
 
