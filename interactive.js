@@ -6,7 +6,7 @@ const essays = [
         title: "What Is Left?",
         preview: "What is left after deconstructing everything?",
         content: `
-            <p>For years, I have deconstructed every system and ideology I encountered. 
+            <p class="indented"> For years, I have deconstructed every system and ideology I encountered. 
             I pulled at assumptions, incentives, and power structures until they came apart in my hands.</p>
             What remained was not liberation, but absence. 
             That process left a void, a chasm where identity should be.
@@ -17,7 +17,7 @@ const essays = [
                 <blockquote>"What is a man that does not know himself?"</blockquote>
             </section>
 
-        <p> What should remain? What is left? What deserves to stay? </p>
+        <p> What is left? What deserves to stay? </p>
         `.trim(),
     },
     {
@@ -135,6 +135,7 @@ function revealOnScroll() {
 // Initial call
 
 revealOnScroll();
+
 
 
 
