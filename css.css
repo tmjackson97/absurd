@@ -77,7 +77,7 @@ main { max-width: 750px; margin: 4rem auto; padding: 0 1.5rem; }
 
 /* Typography */
 .content p { margin-bottom: 2.5rem; font-size: 1.2rem; color: #ccc; }
-.quote { border-left: 1px solid var(--accent); padding-left: 2rem; margin: 4rem 0; }
+.quote { border-left: 2px solid var(--accent); padding-left: 2rem; margin: 4rem 0; }
 blockquote { font-size: 1.6rem; font-style: italic; color: var(--text-primary); line-height: 1.4; margin-bottom: 1rem; }
 cite { font-style: normal; color: var(--accent); text-transform: uppercase; font-size: 0.8rem; letter-spacing: 1px; }
 
@@ -195,5 +195,6 @@ blockquote {
     /* OR use padding-left: 3rem; if you want the ENTIRE paragraph moved over */
     margin-bottom: 2rem; 
 }
+
 
 
