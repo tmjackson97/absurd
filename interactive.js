@@ -19,7 +19,7 @@ const essays = [
         genre: 'politics',
         title: 'The Modern Pacifist',
         preview: 'How can someone who opposes conflict navigate modern politics...',
-        content: '<p>In the digital age, the town square has moved to the server room...</p>'
+        content: '<p> </p>'
     },
     
     
@@ -129,4 +129,5 @@ function revealOnScroll() {
 // Initial call
 
 revealOnScroll();
+
 
