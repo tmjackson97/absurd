@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Absurd</title>
+    <link rel="stylesheet" href="css.css">
+</head>
+<body>
+
+    <div id="progress-container">
+        <div id="progress-bar"></div>
+    </div>
+
+    <nav>
+        <div class="nav-content">
+            <a href="javascript:void(0)" class="logo" onclick="showLanding()">Taylor Jackson</a>
+            <div class="links">
+                <a href="javascript:void(0)" onclick="showGenre('philosophy')">Philosophy</a>
+                <a href="javascript:void(0)" onclick="showGenre('politics')">Politics</a>
+                <a href="javascript:void(0)" onclick="showGenre('the-why')">The Why</a>
+            </div>
+        </div>
+    </nav>
+
+    <main id="main-wrapper">
+        <div id="landing-page">
+            <header class="hero">
+                <h1>Who am I?</h1>
+                <p class="subtitle">And all the things I want to say...</p>
+            </header>
+
+            <article class="content">
+                <section class="quote reveal">
+                    <blockquote>"All great deeds and all great thoughts have a ridiculous beginning. Great works are often born on a street corner or in a restaurant's revolving door."</blockquote>
+                    <cite>— Albert Camus</cite>
+                </section>
+
+                <p class="reveal">Insert Something Here</p>
+            </article>
+        </div>
+
+        <div id="genre-view" class="hidden">
+            <header class="hero">
+                <p id="genre-label" class="meta"></p>
+                <h1 id="genre-title">Essays</h1>
+            </header>
+            <div id="essay-list" class="essay-grid">
+                </div>
+        </div>
+
+        <div id="full-article" class="hidden">
+            <button onclick="backToGenre()" class="back-btn">← Back to List</button>
+            <div id="article-target"></div>
+        </div>
+    </main>
+
+    <script src="interactive.js"></script>
+</body>
+</html>

@@ -1,0 +1,160 @@
+:root {
+    --bg-main: #0f0f0f;
+    --bg-surface: #1a1a1a;
+    --text-primary: #e4e4e4;
+    --text-secondary: #949494;
+    --accent: #c5a47e; /* Muted Gold */
+}
+
+* { margin: 0; padding: 0; box-sizing: border-box; }
+
+body {
+    background-color: var(--bg-main);
+    color: var(--text-primary);
+    font-family: 'Georgia', serif;
+    line-height: 1.8;
+    -webkit-font-smoothing: antialiased;
+    overflow-x: hidden;
+}
+
+/* Progress Bar */
+#progress-container {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 3px;
+    background: transparent;
+    z-index: 1000;
+}
+
+#progress-bar {
+    height: 100%;
+    background: var(--accent);
+    width: 0%;
+}
+
+/* Navigation */
+nav {
+    padding: 2rem;
+    position: sticky;
+    top: 0;
+    background: var(--bg-main);
+    z-index: 99;
+}
+
+.nav-content {
+    width: 100%;
+    max-width: 900px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo { font-size: 1.2rem; text-decoration: none; color: var(--text-primary); font-weight: bold; letter-spacing: 2px; text-transform: uppercase; }
+.links a { margin-left: 2rem; text-decoration: none; color: var(--text-secondary); font-size: 0.85rem; text-transform: uppercase; letter-spacing: 1px; transition: 0.3s; }
+.links a:hover { color: var(--accent); }
+
+/* Layout */
+main { max-width: 750px; margin: 4rem auto; padding: 0 1.5rem; }
+
+.hero { margin-bottom: 4rem; text-align: center; }
+.hero h1 { font-size: 3.5rem; line-height: 1.1; margin: 1rem 0; font-weight: 400; }
+.meta { color: var(--accent); text-transform: uppercase; font-size: 0.75rem; letter-spacing: 3px; font-family: sans-serif; }
+.subtitle { color: var(--text-secondary); font-style: italic; font-size: 1.2rem; }
+
+/* Grid & Cards */
+.essay-grid { display: grid; grid-template-columns: 1fr; gap: 2.5rem; margin-top: 2rem; }
+.essay-card {
+    background: var(--bg-surface);
+    padding: 2.5rem;
+    border: 1px solid #2c2c2c;
+    cursor: pointer;
+    transition: all 0.4s ease;
+}
+.essay-card:hover { border-color: var(--accent); transform: translateY(-3px); }
+.card-preview { color: var(--text-secondary); font-size: 0.95rem; margin-top: 1rem; }
+
+/* Typography */
+.content p { margin-bottom: 2.5rem; font-size: 1.2rem; color: #ccc; }
+.quote { border-left: 1px solid var(--accent); padding-left: 2rem; margin: 4rem 0; }
+blockquote { font-size: 1.6rem; font-style: italic; color: var(--text-primary); line-height: 1.4; margin-bottom: 1rem; }
+cite { font-style: normal; color: var(--accent); text-transform: uppercase; font-size: 0.8rem; letter-spacing: 1px; }
+
+/* Utilities */
+.hidden { display: none !important; }
+.reveal { opacity: 0; transform: translateY(20px); transition: all 0.8s ease-out; }
+.reveal.active { opacity: 1; transform: translateY(0); }
+
+.back-btn {
+    background: transparent;
+    border: none;
+    color: var(--accent);
+    cursor: pointer;
+    font-size: 0.9rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 3rem;
+}
+
+/* Essay Images */
+.content figure {
+    margin: 4rem 0; /* Gives the image plenty of whitespace */
+    text-align: center;
+}
+
+.content img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 2px; /* Very slight rounding for a modern look */
+    filter: grayscale(20%); /* Slightly desaturating images adds a "mature" tone */
+    transition: filter 0.5s ease;
+}
+
+.content img:hover {
+    filter: grayscale(0%); /* Brings color back on hover */
+}
+
+figcaption {
+    margin-top: 1rem;
+    font-size: 0.85rem;
+    color: var(--text-secondary);
+    font-style: italic;
+    letter-spacing: 0.5px;
+}
+/* Mobile Optimization */
+@media (max-width: 768px) {
+    main {
+        margin: 2rem auto; /* Reduces top margin on mobile */
+        padding: 0 1rem;   /* Slimmer side padding */
+    }
+
+    .hero h1 {
+        font-size: 2.5rem; /* Scales down the massive headers */
+    }
+
+    .nav-content {
+        flex-direction: column; /* Stacks logo above links */
+        gap: 1.5rem;
+    }
+
+    .links {
+        display: flex;
+        gap: 1rem;
+        flex-wrap: wrap; /* Prevents links from running off-screen */
+        justify-content: center;
+    }
+
+    .links a {
+        margin-left: 0; /* Resets the desktop-only margin */
+        font-size: 0.75rem;
+    }
+
+    .essay-card {
+        padding: 1.5rem; /* More space for the text, less for the container */
+    }
+
+    blockquote {
+        font-size: 1.3rem; /* Keeps quotes legible but not overwhelming */
+    }
+}
