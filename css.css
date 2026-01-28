@@ -157,4 +157,35 @@ figcaption {
     blockquote {
         font-size: 1.3rem; /* Keeps quotes legible but not overwhelming */
     }
+
+}
+
+/* The Reading Container */
+#article-target {
+    max-width: 700px;
+    margin: 0 auto;
+    padding-bottom: 10rem; /* Space at the bottom so the last line isn't at the edge */
+}
+
+/* Paragraph Rhythm */
+.content p {
+    font-size: 1.25rem;
+    line-height: 1.85; /* Increased for readability */
+    color: var(--text-primary);
+    margin-bottom: 2.5rem; /* Generous spacing between thoughts */
+    letter-spacing: -0.01em; /* Subtle tightening for a "printed" look */
+}
+
+/* The Existential Quote */
+.quote {
+    margin: 5rem 0;
+    border-left: 2px solid var(--accent);
+    padding-left: 2.5rem;
+}
+
+blockquote {
+    font-size: 1.8rem;
+    font-style: italic;
+    color: var(--text-primary);
+    line-height: 1.4;
 }
