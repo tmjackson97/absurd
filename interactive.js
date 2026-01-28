@@ -47,11 +47,11 @@ function showGenre(genre) {
         // This creates your "Solid About Page" layout
         list.innerHTML = `
             <article class="content">
-                <p class="reveal">This is where you tell your story. As Taylor Jackson, this page serves as the foundation for your work in philosophy and politics.</p>
+                <p class="reveal">This is my personal journey into philosophy and politics to find myself.</p>
                 
-                <p class="reveal">Write about your motivations, your background, or the "Absurd" philosophy that drives this site. Keep the paragraphs generous and the thoughts deep.</p>
+                <p class="reveal"> </p>
 
-                <!--<section class="quote reveal">
+            <section class="quote reveal">
                     <blockquote>"The only way to deal with an unfree world is to become so absolutely free that your very existence is an act of rebellion."</blockquote>
                     <cite>— Albert Camus</cite>
                 </section> -->
@@ -127,4 +127,5 @@ function revealOnScroll() {
 }
 
 // Initial call
+
 revealOnScroll();
