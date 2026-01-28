@@ -7,7 +7,7 @@ const essays = [
         preview: "What is left after deconstructing everything?",
         content: `
             <p class="indented"> For years, I have deconstructed every system and ideology I encountered. 
-            I pulled at assumptions, incentives, and power structures until they came apart in my hands.</p>
+            I pulled at assumptions, incentives, and power structures until they came apart in my hands.
             What remained was not liberation, but absence. 
             That process left a void, a chasm where identity should be.
             I exist now as a physical being suspended in air, with no foundation beneath me, 
@@ -135,6 +135,7 @@ function revealOnScroll() {
 // Initial call
 
 revealOnScroll();
+
 
 
 
