@@ -1,23 +1,25 @@
 // 1. DATA: Add your essays here
 const essays = [
 {
-  id: "pursuit",
-  genre: "philosophy",
-  title: "What Is Left?",
-  preview: "What is left after deconstructing everything?",
-  content: `For years, I have deconstructed every system and ideology I encountered.
-      I pulled at assumptions, incentives, and power structures until they came apart in my hands.
-      What remained was not liberation, but absence.
-      That process left a void, a chasm where identity should be.
-      I exist now as a physical being suspended in air, with no foundation beneath me,
-      no structure sturdy enough to stand on without collapsing under my own scrutiny.
-      
-      What is a man that does not know himself?
+        id: "pursuit",
+        genre: "philosophy",
+        title: "What Is Left?",
+        preview: "What is left after deconstructing everything?",
+        content: `
+            <p>For years, I have deconstructed every system and ideology I encountered. 
+            I pulled at assumptions, incentives, and power structures until they came apart in my hands.</p>
+            
+            <p>What remained was not liberation, but absence. 
+            That process left a void, a chasm where identity should be.</p>
+            
+            <p>I exist now as a physical being suspended in air, with no foundation beneath me, 
+            no structure sturdy enough to stand on without collapsing under my own scrutiny.</p>
 
-      
-  
-  `.trim(),
-},
+            <section class="quote reveal">
+                <blockquote>"What is a man that does not know himself?"</blockquote>
+            </section>
+        `.trim(),
+    },
     {
         id: 'pacifist',
         genre: 'politics',
@@ -133,6 +135,7 @@ function revealOnScroll() {
 // Initial call
 
 revealOnScroll();
+
 
 
 
