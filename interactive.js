@@ -132,9 +132,15 @@ function revealOnScroll() {
     });
 }
 
+// This ensures your landing page is visible immediately when someone visits
+document.addEventListener('DOMContentLoaded', () => {
+    showLanding();
+});
+
 // Initial call
 
 revealOnScroll();
+
 
 
 
