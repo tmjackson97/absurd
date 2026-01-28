@@ -189,3 +189,8 @@ blockquote {
     color: var(--text-primary);
     line-height: 1.4;
 }
+.content p {
+    text-indent: 3rem; /* Adjust this value for a deeper or shallower indent */
+    margin-bottom: 0;   /* Usually, indented styles don't need large bottom margins */
+}
+
