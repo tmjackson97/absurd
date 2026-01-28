@@ -8,12 +8,10 @@ const essays = [
         content: `
             <p>For years, I have deconstructed every system and ideology I encountered. 
             I pulled at assumptions, incentives, and power structures until they came apart in my hands.</p>
-            
-            <p>What remained was not liberation, but absence. 
-            That process left a void, a chasm where identity should be.</p>
-            
-            <p>I exist now as a physical being suspended in air, with no foundation beneath me, 
-            no structure sturdy enough to stand on without collapsing under my own scrutiny.</p>
+            What remained was not liberation, but absence. 
+            That process left a void, a chasm where identity should be.
+            I exist now as a physical being suspended in air, with no foundation beneath me, 
+            no structure sturdy enough to stand on without collapsing under my own scrutiny. </p>
 
             <section class="quote reveal">
                 <blockquote>"What is a man that does not know himself?"</blockquote>
@@ -137,6 +135,7 @@ function revealOnScroll() {
 // Initial call
 
 revealOnScroll();
+
 
 
 
