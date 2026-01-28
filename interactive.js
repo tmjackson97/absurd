@@ -18,6 +18,8 @@ const essays = [
             <section class="quote reveal">
                 <blockquote>"What is a man that does not know himself?"</blockquote>
             </section>
+
+        <p> What should remain? What is left? What deserves to stay? </p>
         `.trim(),
     },
     {
@@ -135,6 +137,7 @@ function revealOnScroll() {
 // Initial call
 
 revealOnScroll();
+
 
 
 
