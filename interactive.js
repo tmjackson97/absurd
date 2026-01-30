@@ -31,7 +31,7 @@ to have Jesus Christ come into their heart to raise there hand. There was then a
 hands in. Afterwards, he asked who was brave enough to stand up and proclaim that they asked Jesus into their hearts and became saved that day.
 With tears in my eyes I triumphantly stood up, proclaiming my faith. Around this time I also entertained the idea of becoming a pastor, that’s how serious I took my faith. </p>
 
-<p class="indented" Fast forward to my freshmen or sophomore year, I was asked to write an essay for my bible class, the assignment was to describe what would happen in the world if God did not exist. This simple question is when I realized... </p>
+<p class="indented"> Fast forward to my freshmen or sophomore year, I was asked to write an essay for my bible class, the assignment was to describe what would happen in the world if God did not exist. This simple question is when I realized... </p>
 
         
         `.trim(),
@@ -156,6 +156,7 @@ document.addEventListener('DOMContentLoaded', () => {
 // Initial call
 
 revealOnScroll();
+
 
 
 
