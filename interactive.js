@@ -26,7 +26,7 @@ I remember, I must of been fourteen and during one of those chapel services they
 There was then a prayer of salvation that the pastor led those who raised their hands in. Afterwards, he asked who was brave enough to stand up and proclaim that they asked Jesus into their hearts and became saved that day. With tears in my eyes I triumphantly stood up, proclaiming 
 my faith. Around this time I also entertained the idea of becoming a pastor, that’s how serious I took my faith. </p>
 
-<p class-="indented" Fast forward to my freshmen or sophomore year, I was asked to write an essay for my bible class, the assignment was to describe what would happen in the world if God did not exist. This simple question is when I realized </p>
+<p class-="indented" Fast forward to my freshmen or sophomore year, I was asked to write an essay for my bible class, the assignment was to describe what would happen in the world if God did not exist. This simple question is when I realized... </p>
 
         
         `.trim(),
@@ -35,8 +35,8 @@ my faith. Around this time I also entertained the idea of becoming a pastor, tha
         id: 'pacifist',
         genre: 'politics',
         title: 'The Modern Pacifist',
-        preview: 'How can someone who opposes conflict navigate modern politics...',
-        content: '<p> </p>'
+        preview: 'No Content Yet',
+        content: '<p> Check Back Later...</p>'
     },
     
     
@@ -151,6 +151,7 @@ document.addEventListener('DOMContentLoaded', () => {
 // Initial call
 
 revealOnScroll();
+
 
 
 
