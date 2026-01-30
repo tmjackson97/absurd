@@ -1,41 +1,43 @@
 // 1. DATA: Add your essays here
 const essays = [
 {
-        id: "pursuit",
-        genre: "philosophy",
-        title: "The Fall",
-        preview: "A De-conversion Story",
-        content: `
-            <p class="indented"> For years, I have deconstructed every system and ideology I encountered. 
-            I pulled at assumptions, incentives, and power structures until they came apart in my hands.
-            What remained was not liberation, but absence. 
-            That process left a void, a chasm where identity should be.
-            I exist now as a physical being suspended in air, with no foundation beneath me, 
-            no structure sturdy enough to stand on without collapsing under my own scrutiny. </p>
+    id: "pursuit",
+    genre: "philosophy",
+    title: "The Fall",
+    preview: "A Deconversion Story",
+    content: `
+        <p class="indented">For years, I have deconstructed every system and ideology I encountered. 
+        I pulled at assumptions, incentives, and power structures until they came apart in my hands.
+        What remained was not liberation, but absence. 
+        That process left a void—a chasm where identity should be.
+        I exist now as a physical being suspended in air, with no foundation beneath me, 
+        no structure sturdy enough to stand on without collapsing under my own scrutiny.</p>
 
-            <section class="quote reveal">
-                <blockquote>"What is a man that does not know himself?"</blockquote>
-            </section>
+        <section class="quote reveal">
+            <blockquote>"What is a man that does not know himself?"</blockquote>
+        </section>
 
-        <p> What is left? What deserves to stay? </p>
-<p class="indented"> Rebuilding requires an honest inventory of what has been destroyed: a careful sorting
-of the rubble of who we were, so that what remains is chosen, not inherited. But to understand the present self,
-one must first account for what was inherited before authorship was possible. I was born in September of 1997, my mother
-was only sixteen, my father was eighteen.  I am unable to remember any values that they personally instilled into me, they 
-left that up to religion and my schooling. That being said, both identified as Christian, but neither of them practiced religion. 
-They left that up to the private Christian school I attended from kindergarten to my junior year of high school. Before class every 
-morning at 8:30am was bible class. Every Wednesday was a chapel service in place of the Bible class. Allow me to expand, i did not just 
-attend these classes and services, I excelled at them. I participated whole heartedly. I remember, I must of been fourteen and during one 
-of those chapel services they asked every student in the chapel to bow their heads and close their eyes. They asked, that whoever would like 
-to have Jesus Christ come into their heart to raise there hand. There was then a prayer of salvation that the pastor led those who raised their 
-hands in. Afterwards, he asked who was brave enough to stand up and proclaim that they asked Jesus into their hearts and became saved that day.
-With tears in my eyes I triumphantly stood up, proclaiming my faith. Around this time I also entertained the idea of becoming a pastor, that’s how serious I took my faith. </p>
+        <p class="indented">Rebuilding requires an honest inventory of what has been destroyed: a careful sorting
+        of the rubble of who we were so that what remains is chosen, not inherited. To understand the present self,
+        one must first account for what was inherited before authorship was possible. I was born in September of 1997;
+        my mother was only sixteen, and my father was eighteen. I am unable to recall any values they personally instilled in me;
+        those were largely left to religion and schooling. Both identified as Christian, yet neither practiced religion.
+        That responsibility was delegated to the private Christian school I attended from kindergarten through my junior year
+        of high school.</p>
 
-<p class="indented"> Fast forward to my freshmen or sophomore year, I was asked to write an essay for my bible class, the assignment was to describe what would happen in the world if God did not exist. This simple question is when I realized... </p>
+        <p class="indented">Each morning before class at 8:30 a.m., there was Bible class. Every Wednesday, chapel service
+        replaced it. I did not merely attend these classes and services; I excelled in them. I participated wholeheartedly.
+        I remember being fourteen during one such chapel service when students were asked to bow their heads and close their eyes.
+        Those who wished to invite Jesus Christ into their hearts were instructed to raise their hands. A prayer of salvation
+        followed, led by the pastor. Afterwards, he asked who was willing to stand and publicly proclaim their faith.
+        With tears in my eyes, I stood, declaring that I had been saved. Around this time, I also entertained the idea of becoming
+        a pastor, that is how seriously I took my faith.</p>
 
-        
-        `.trim(),
-    },
+        <p class="indented">Fast forward to my freshman or sophomore year: I was asked to write an essay for my Bible class.
+        The assignment was to describe what would happen in the world if God did not exist. It was with this question that I began to realize...</p>
+    `.trim(),
+}
+,
     {
         id: 'pacifist',
         genre: 'politics',
@@ -155,6 +157,7 @@ document.addEventListener('DOMContentLoaded', () => {
 // Initial call
 
 revealOnScroll();
+
 
 
 
