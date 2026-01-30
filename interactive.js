@@ -18,13 +18,18 @@ const essays = [
             </section>
 
         <p> What is left? What deserves to stay? </p>
-<p class="indented"> Rebuilding requires an honest inventory of what has been destroyed: a careful sorting of the rubble of who we were, so that what remains is chosen, not inherited. But to understand the present self, one must first account for what was inherited before authorship was possible.
-I was born in September of 1997, my mother was only sixteen, my father was eighteen.  I am unable to remember any values that they personally instilled into me, they left that up to religion and my schooling. 
-That being said, both identified as Christian, but neither of them practiced religion. They left that up to the private Christian school I attended from kindergarten to my junior year of high school.
-Before class every morning at 8:30am was bible class. Every Wednesday was a chapel service in place of the Bible class. Allow me to expand, i did not just attend these classes and services, I excelled at them. I participated whole heartedly. 
-I remember, I must of been fourteen and during one of those chapel services they asked every student in the chapel to bow their heads and close their eyes. They asked, that whoever would like to have Jesus Christ come into their heart to raise there hand. 
-There was then a prayer of salvation that the pastor led those who raised their hands in. Afterwards, he asked who was brave enough to stand up and proclaim that they asked Jesus into their hearts and became saved that day. With tears in my eyes I triumphantly stood up, proclaiming 
-my faith. Around this time I also entertained the idea of becoming a pastor, that’s how serious I took my faith. </p>
+<p class="indented"> Rebuilding requires an honest inventory of what has been destroyed: a careful sorting
+of the rubble of who we were, so that what remains is chosen, not inherited. But to understand the present self,
+one must first account for what was inherited before authorship was possible. I was born in September of 1997, my mother
+was only sixteen, my father was eighteen.  I am unable to remember any values that they personally instilled into me, they 
+left that up to religion and my schooling. That being said, both identified as Christian, but neither of them practiced religion. 
+They left that up to the private Christian school I attended from kindergarten to my junior year of high school. Before class every 
+morning at 8:30am was bible class. Every Wednesday was a chapel service in place of the Bible class. Allow me to expand, i did not just 
+attend these classes and services, I excelled at them. I participated whole heartedly. I remember, I must of been fourteen and during one 
+of those chapel services they asked every student in the chapel to bow their heads and close their eyes. They asked, that whoever would like 
+to have Jesus Christ come into their heart to raise there hand. There was then a prayer of salvation that the pastor led those who raised their 
+hands in. Afterwards, he asked who was brave enough to stand up and proclaim that they asked Jesus into their hearts and became saved that day.
+With tears in my eyes I triumphantly stood up, proclaiming my faith. Around this time I also entertained the idea of becoming a pastor, that’s how serious I took my faith. </p>
 
 <p class="indented" Fast forward to my freshmen or sophomore year, I was asked to write an essay for my bible class, the assignment was to describe what would happen in the world if God did not exist. This simple question is when I realized... </p>
 
@@ -151,6 +156,7 @@ document.addEventListener('DOMContentLoaded', () => {
 // Initial call
 
 revealOnScroll();
+
 
 
 
