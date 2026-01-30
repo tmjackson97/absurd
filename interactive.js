@@ -76,7 +76,7 @@ function showGenre(genre) {
             <section class="quote reveal">
                     <blockquote>"The only way to deal with an unfree world is to become so absolutely free that your very existence is an act of rebellion."</blockquote>
                     <cite>— Albert Camus</cite>
-                </section> -->
+                </section>
             </article>
         `;
     } else {
@@ -147,7 +147,6 @@ function revealOnScroll() {
         }
     });
 }
-
 // This ensures your landing page is visible immediately when someone visits
 document.addEventListener('DOMContentLoaded', () => {
     showLanding();
@@ -156,6 +155,7 @@ document.addEventListener('DOMContentLoaded', () => {
 // Initial call
 
 revealOnScroll();
+
 
 
 
